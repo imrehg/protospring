@@ -1,0 +1,313 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ProtoSpring for Springboard"
+Date "14 oct 2014"
+Rev "v1"
+Comp "VIA Embedded"
+Comment1 "CERN Open Hardware License 1.2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_3X2 P1
+U 1 1 543CCC77
+P 3000 2200
+F 0 "P1" H 3000 2450 50  0000 C CNN
+F 1 "CONN_3X2" V 3000 2250 40  0000 C CNN
+F 2 "~" H 3000 2200 60  0000 C CNN
+F 3 "~" H 3000 2200 60  0000 C CNN
+	1    3000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_7X2 P2
+U 1 1 543CCCB0
+P 3000 3250
+F 0 "P2" H 3000 3650 60  0000 C CNN
+F 1 "CONN_7X2" V 3000 3250 60  0000 C CNN
+F 2 "~" H 3000 3250 60  0000 C CNN
+F 3 "~" H 3000 3250 60  0000 C CNN
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4X2 P3
+U 1 1 543CCCBF
+P 3000 4350
+F 0 "P3" H 3000 4600 50  0000 C CNN
+F 1 "CONN_4X2" V 3000 4350 40  0000 C CNN
+F 2 "~" H 3000 4350 60  0000 C CNN
+F 3 "~" H 3000 4350 60  0000 C CNN
+	1    3000 4350
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2800 2    60   ~ 0
+VCC33
+Text Label 2600 3050 2    60   ~ 0
+GND
+Text Label 3900 2800 0    60   ~ 0
+VCC5
+Text Label 3400 3050 0    60   ~ 0
+VSUS33
+Text Label 3400 3150 0    60   ~ 0
+GPIO24
+Text Label 3400 3250 0    60   ~ 0
+GPIO25
+Text Label 3400 3350 0    60   ~ 0
+GPIO26
+Text Label 3400 3450 0    60   ~ 0
+GPIO26
+Text Label 3400 3550 0    60   ~ 0
+I2C0SCL
+Text Label 2600 3550 2    60   ~ 0
+I2C0SDA
+Text Label 2600 3450 2    60   ~ 0
+GPIO23
+Text Label 2600 3350 2    60   ~ 0
+GPIO22
+Text Label 2600 3250 2    60   ~ 0
+GPIO21
+Text Label 2600 3150 2    60   ~ 0
+GPIO20
+Text Label 3400 2050 0    60   ~ 0
+GND
+Text Label 3400 2150 0    60   ~ 0
+GND
+Text Label 3400 2250 0    60   ~ 0
+GND
+Text Label 2600 2050 2    60   ~ 0
+PWR_LED
+Text Label 2600 2150 2    60   ~ 0
+PWRBTN
+Text Label 2600 2250 2    60   ~ 0
+RESET1
+Text Label 2600 4200 2    60   ~ 0
+LINEIN_R
+Text Label 2600 4300 2    60   ~ 0
+LINEIN_L
+Text Label 2600 4400 2    60   ~ 0
+LINEOUT_R
+Text Label 2600 4500 2    60   ~ 0
+LINEOUT_L
+Text Label 3400 4200 0    60   ~ 0
+GND
+Text Label 3400 4300 0    60   ~ 0
+MICIN1
+Text Label 3400 4400 0    60   ~ 0
+MICIN2
+Text Label 3400 4500 0    60   ~ 0
+HP_DET
+$Comp
+L FUSE F2
+U 1 1 543CD035
+P 3650 2800
+F 0 "F2" H 3750 2850 40  0000 C CNN
+F 1 "FUSE" H 3550 2750 40  0000 C CNN
+F 2 "SMD1206" H 3650 2800 60  0001 C CNN
+F 3 "~" H 3650 2800 60  0000 C CNN
+F 4 "0900030P1" H 3650 2800 60  0001 C CNN "Seeed PN"
+	1    3650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 543CD044
+P 2350 2800
+F 0 "F1" H 2450 2850 40  0000 C CNN
+F 1 "FUSE" H 2250 2750 40  0000 C CNN
+F 2 "SMD1206" H 2500 2900 60  0001 C CNN
+F 3 "~" H 2350 2800 60  0000 C CNN
+F 4 "0900030P1" H 2350 2800 60  0001 C CNN "Seeed PN"
+	1    2350 2800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 3400 3050
+Wire Wire Line
+	3400 2950 3400 2800
+Wire Wire Line
+	2600 2950 2600 2800
+Text Notes 2050 1750 0    60   ~ 0
+Input connectors
+$Comp
+L CONN_9X2 P5
+U 1 1 543CD0F8
+P 5500 3150
+F 0 "P5" H 5500 3600 60  0000 C CNN
+F 1 "CONN_9X2" V 5500 3150 50  0000 C CNN
+F 2 "~" H 5500 3150 60  0000 C CNN
+F 3 "~" H 5500 3150 60  0000 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+Text Label 5100 2800 2    60   ~ 0
+GPIO20
+Text Label 5900 2800 0    60   ~ 0
+GPIO20
+Text Label 5900 2900 0    60   ~ 0
+GPIO21
+Text Label 5900 3000 0    60   ~ 0
+GPIO22
+Text Label 5900 3100 0    60   ~ 0
+GPIO23
+Text Label 5900 3200 0    60   ~ 0
+GPIO24
+Text Label 5900 3300 0    60   ~ 0
+GPIO25
+Text Label 5900 3400 0    60   ~ 0
+GPIO26
+Text Label 5900 3500 0    60   ~ 0
+GPIO27
+Text Label 5100 2900 2    60   ~ 0
+GPIO21
+Text Label 5100 3000 2    60   ~ 0
+GPIO22
+Text Label 5100 3100 2    60   ~ 0
+GPIO23
+Text Label 5100 3200 2    60   ~ 0
+GPIO24
+Text Label 5100 3300 2    60   ~ 0
+GPIO25
+Text Label 5100 3400 2    60   ~ 0
+GPIO26
+Text Label 5100 3500 2    60   ~ 0
+GPIO27
+Text Label 5100 3600 2    60   ~ 0
+I2C0SDA
+Text Label 5900 3600 0    60   ~ 0
+I2C0SCL
+$Comp
+L CONN_3X2 P4
+U 1 1 543CD3FE
+P 5500 2200
+F 0 "P4" H 5500 2450 50  0000 C CNN
+F 1 "CONN_3X2" V 5500 2250 40  0000 C CNN
+F 2 "~" H 5500 2200 60  0000 C CNN
+F 3 "~" H 5500 2200 60  0000 C CNN
+	1    5500 2200
+	1    0    0    -1  
+$EndComp
+Text Notes 4650 1750 0    60   ~ 0
+Output connectors
+Text Label 5900 2050 0    60   ~ 0
+GND
+Text Label 5900 2150 0    60   ~ 0
+GND
+Text Label 5900 2250 0    60   ~ 0
+GND
+Text Label 5100 2050 2    60   ~ 0
+PWR_LED
+Text Label 5100 2150 2    60   ~ 0
+PWRBTN
+Text Label 5100 2250 2    60   ~ 0
+RESET1
+$Comp
+L CONN_4X2 P6
+U 1 1 543CD497
+P 5500 4400
+F 0 "P6" H 5500 4650 50  0000 C CNN
+F 1 "CONN_4X2" V 5500 4400 40  0000 C CNN
+F 2 "~" H 5500 4400 60  0000 C CNN
+F 3 "~" H 5500 4400 60  0000 C CNN
+	1    5500 4400
+	1    0    0    -1  
+$EndComp
+Text Label 5100 4250 2    60   ~ 0
+LINEIN_R
+Text Label 5100 4350 2    60   ~ 0
+LINEIN_L
+Text Label 5100 4450 2    60   ~ 0
+LINEOUT_R
+Text Label 5100 4550 2    60   ~ 0
+LINEOUT_L
+Text Label 5900 4250 0    60   ~ 0
+GND
+Text Label 5900 4350 0    60   ~ 0
+MICIN1
+Text Label 5900 4450 0    60   ~ 0
+MICIN2
+Text Label 5900 4550 0    60   ~ 0
+HP_DET
+$Comp
+L +5V #PWR01
+U 1 1 543CD727
+P 4200 2800
+F 0 "#PWR01" H 4200 2890 20  0001 C CNN
+F 1 "+5V" H 4200 2890 30  0000 C CNN
+F 2 "" H 4200 2800 60  0000 C CNN
+F 3 "" H 4200 2800 60  0000 C CNN
+	1    4200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 543CD7B1
+P 1700 2800
+F 0 "#PWR02" H 1700 2760 30  0001 C CNN
+F 1 "+3.3V" H 1700 2910 30  0000 C CNN
+F 2 "" H 1700 2800 60  0000 C CNN
+F 3 "" H 1700 2800 60  0000 C CNN
+	1    1700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 543CD7C2
+P 3900 2800
+F 0 "#FLG03" H 3900 2895 30  0001 C CNN
+F 1 "PWR_FLAG" H 3900 2980 30  0000 C CNN
+F 2 "" H 3900 2800 60  0000 C CNN
+F 3 "" H 3900 2800 60  0000 C CNN
+	1    3900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2800 4200 2800
+Wire Wire Line
+	2100 2800 1700 2800
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 543CD804
+P 2100 2800
+F 0 "#FLG04" H 2100 2895 30  0001 C CNN
+F 1 "PWR_FLAG" H 2100 2980 30  0000 C CNN
+F 2 "" H 2100 2800 60  0000 C CNN
+F 3 "" H 2100 2800 60  0000 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
