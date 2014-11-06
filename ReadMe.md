@@ -7,6 +7,11 @@ and PCB done in KiCad.
 
 For more information on this hardware, you can contact at <gergely@imreh.net>.
 
+## Bugs, modifications
+
+If you find any bugs on the board or want to suggest improvements, I'm always
+happy to hear. Either submit an Issue on Github, or send me an email.
+
 ## License
 
 This hardware is provided under the [CERN Open Hardware License 1.2][ohl].
