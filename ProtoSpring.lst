@@ -1,0 +1,32 @@
+eeschema (2013-may-18)-stable  >> Creation date: Sun 26 Oct 2014 03:00:40 PM CST
+#Cmp ( order = Reference )
+| C1         0.1u        ;             ;             ;             ;             ;             ;             ;             ;             
+| C2         10u         ;             ;             ;             ;             ;             ;             ;             ;             
+| C3         0.1u        ;             ;             ;             ;             ;             ;             ;             ;             
+| C4         10u         ;             ;             ;             ;             ;             ;             ;             ;             
+| F1         FUSE        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
+| F2         FUSE        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
+| P1         CONN_3X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P2         CONN_7X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P3         CONN_4X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P4         CONN_3X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P5         CONN_9X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P6         CONN_4X2    ;             ;             ;             ;             ;             ;             ;             ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.1u         C1        ;             ;             ;             ;             ;             ;             ;             ;             
+| 0.1u         C3        ;             ;             ;             ;             ;             ;             ;             ;             
+| 10u          C2        ;             ;             ;             ;             ;             ;             ;             ;             
+| 10u          C4        ;             ;             ;             ;             ;             ;             ;             ;             
+| FUSE         F1        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
+| FUSE         F2        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
+| CONN_3X2     P1        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_7X2     P2        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_4X2     P3        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_3X2     P4        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_9X2     P5        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_4X2     P6        ;             ;             ;             ;             ;             ;             ;             ;             
+#End Cmp
+
+#End List

@@ -1,0 +1,248 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 28 Oct 2014 11:47:46 AM CST
+
+BeginCmp
+TimeStamp = /544520E3;
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /544520BC;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54452767;
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445205D;
+Reference = C4;
+ValeurCmp = 10u;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /544C9F03;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CD044;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CD035;
+Reference = F2;
+ValeurCmp = FUSE;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CCC77;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_2mm_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CCCB0;
+Reference = P2;
+ValeurCmp = CONN_7X2;
+IdModule  = pin_array_2mm_7x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CCCBF;
+Reference = P3;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_2mm_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CD3FE;
+Reference = P4;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544CA91C;
+Reference = P5;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544CA901;
+Reference = P6;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /543CD497;
+Reference = P7;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4B5C;
+Reference = P8;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4B6B;
+Reference = P9;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4BC5;
+Reference = P10;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4CC3;
+Reference = P11;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4CD5;
+Reference = P12;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4CE7;
+Reference = P13;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4CF9;
+Reference = P14;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4D0B;
+Reference = P15;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4D1D;
+Reference = P16;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4D2F;
+Reference = P17;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4EE9;
+Reference = P18;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4EEF;
+Reference = P19;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F05;
+Reference = P20;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F17;
+Reference = P21;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F29;
+Reference = P22;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F3B;
+Reference = P23;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F4D;
+Reference = P24;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F5F;
+Reference = P25;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F71;
+Reference = P26;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D4F83;
+Reference = P27;
+ValeurCmp = CONN_14;
+IdModule  = BREADBOARD_PIN_ROW_2-5-5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /544C9F12;
+Reference = R1;
+ValeurCmp = 390;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+EndListe
