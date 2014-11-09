@@ -1,32 +1,78 @@
-eeschema (2013-may-18)-stable  >> Creation date: Sun 26 Oct 2014 03:00:40 PM CST
+eeschema (2013-may-18)-stable  >> Creation date: Sun 09 Nov 2014 02:58:51 PM CST
 #Cmp ( order = Reference )
-| C1         0.1u        ;             ;             ;             ;             ;             ;             ;             ;             
-| C2         10u         ;             ;             ;             ;             ;             ;             ;             ;             
-| C3         0.1u        ;             ;             ;             ;             ;             ;             ;             ;             
-| C4         10u         ;             ;             ;             ;             ;             ;             ;             ;             
-| F1         FUSE        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
-| F2         FUSE        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
-| P1         CONN_3X2    ;             ;             ;             ;             ;             ;             ;             ;             
-| P2         CONN_7X2    ;             ;             ;             ;             ;             ;             ;             ;             
-| P3         CONN_4X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| C1         0.1u        ; 0603YC104KAT2A; AVX         ;             ;             ;             ;             ;             ;             
+| C2         10u         ; F931A106KAA ; AVX         ;             ;             ;             ;             ;             ;             
+| C3         0.1u        ; 0603YC104KAT2A; AVX         ;             ;             ;             ;             ;             ;             
+| C4         10u         ; F931A106KAA ; AVX         ;             ;             ;             ;             ;             ;             
+| D1         LED         ; LB Q39G-L2N2-35-1; Osram       ;             ;             ;             ;             ;             ;             
+| F1         FUSE        ; 1206L110THYR; Littelfuse  ;             ;             ;             ;             ;             ;             
+| F2         FUSE        ; 1206L110THYR; Littelfuse  ;             ;             ;             ;             ;             ;             
+| P1         CONN_3X2    ; 950406-5002-AR; 3M          ;             ;             ;             ;             ;             ;             
+| P2         CONN_7X2    ; 950414-5002-AR; 3M          ;             ;             ;             ;             ;             ;             
+| P3         CONN_4X2    ; 950408-5002-AR; 3M          ;             ;             ;             ;             ;             ;             
 | P4         CONN_3X2    ;             ;             ;             ;             ;             ;             ;             ;             
-| P5         CONN_9X2    ;             ;             ;             ;             ;             ;             ;             ;             
-| P6         CONN_4X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P5         CONN_8X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P6         CONN_2X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P7         CONN_4X2    ;             ;             ;             ;             ;             ;             ;             ;             
+| P8         CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P9         CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P10        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P11        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P12        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P13        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P14        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P15        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P16        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P17        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P18        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P19        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P20        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P21        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P22        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P23        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P24        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P25        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P26        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| P27        CONN_14     ;             ;             ;             ;             ;             ;             ;             ;             
+| R1         680         ; CRCW0603680RFKEA; Vishay      ;             ;             ;             ;             ;             ;             
 #End Cmp
 
 #Cmp ( order = Value )
-| 0.1u         C1        ;             ;             ;             ;             ;             ;             ;             ;             
-| 0.1u         C3        ;             ;             ;             ;             ;             ;             ;             ;             
-| 10u          C2        ;             ;             ;             ;             ;             ;             ;             ;             
-| 10u          C4        ;             ;             ;             ;             ;             ;             ;             ;             
-| FUSE         F1        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
-| FUSE         F2        ; 0900030P1   ;             ;             ;             ;             ;             ;             ;             
-| CONN_3X2     P1        ;             ;             ;             ;             ;             ;             ;             ;             
-| CONN_7X2     P2        ;             ;             ;             ;             ;             ;             ;             ;             
-| CONN_4X2     P3        ;             ;             ;             ;             ;             ;             ;             ;             
+| 0.1u         C1        ; 0603YC104KAT2A; AVX         ;             ;             ;             ;             ;             ;             
+| 0.1u         C3        ; 0603YC104KAT2A; AVX         ;             ;             ;             ;             ;             ;             
+| 10u          C2        ; F931A106KAA ; AVX         ;             ;             ;             ;             ;             ;             
+| 10u          C4        ; F931A106KAA ; AVX         ;             ;             ;             ;             ;             ;             
+| LED          D1        ; LB Q39G-L2N2-35-1; Osram       ;             ;             ;             ;             ;             ;             
+| FUSE         F1        ; 1206L110THYR; Littelfuse  ;             ;             ;             ;             ;             ;             
+| FUSE         F2        ; 1206L110THYR; Littelfuse  ;             ;             ;             ;             ;             ;             
+| CONN_3X2     P1        ; 950406-5002-AR; 3M          ;             ;             ;             ;             ;             ;             
+| CONN_7X2     P2        ; 950414-5002-AR; 3M          ;             ;             ;             ;             ;             ;             
+| CONN_4X2     P3        ; 950408-5002-AR; 3M          ;             ;             ;             ;             ;             ;             
 | CONN_3X2     P4        ;             ;             ;             ;             ;             ;             ;             ;             
-| CONN_9X2     P5        ;             ;             ;             ;             ;             ;             ;             ;             
-| CONN_4X2     P6        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_8X2     P5        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_2X2     P6        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_4X2     P7        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P8        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P9        ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P10       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P11       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P12       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P13       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P14       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P15       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P16       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P17       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P18       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P19       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P20       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P21       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P22       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P23       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P24       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P25       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P26       ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_14      P27       ;             ;             ;             ;             ;             ;             ;             ;             
+| 680          R1        ; CRCW0603680RFKEA; Vishay      ;             ;             ;             ;             ;             ;             
 #End Cmp
 
 #End List
